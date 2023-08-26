@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { Achievements } from "./pages/Achievements";
 import { Contact } from "./pages/Contact";
 import { Experience } from "./pages/Experience";
@@ -22,6 +23,7 @@ function App() {
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }

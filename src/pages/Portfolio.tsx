@@ -4,7 +4,7 @@ import styles from "../css/Portfolio.module.css";
 
 export const Portfolio = () => {
   return (
-    <div className={`${styles.portfolio}`}>
+    <div className={`container ${styles.portfolio}`}>
       <h1>Portfolio</h1>
       <div>{/* PROJECTS */}</div>
       <div id="app" className={`${styles.projects}`}>
