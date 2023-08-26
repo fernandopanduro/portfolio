@@ -17,7 +17,7 @@ export const PortfolioCard: React.FC<Props> = ({
 }) => {
   return (
     <Atropos className="my-atropos" activeOffset={40} shadowScale={1.05}>
-      <Link to={`/portfolio/:${project}`}>
+      <Link to={`/portfolio/${project}`}>
         <img
           src={imgBg}
           data-atropos-offset="-5"

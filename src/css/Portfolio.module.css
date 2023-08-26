@@ -8,6 +8,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   place-items: center;
-  gap: 4rem;
+  gap: var(--fz-xxxl);
   margin: 0 auto;
 }
