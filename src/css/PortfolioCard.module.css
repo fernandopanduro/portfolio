@@ -1,0 +1,18 @@
+.img {
+  width: 100%;
+}
+
+.imgBg {
+  height: 100% !important;
+}
+
+.imgMiddle {
+  top: 15%;
+  margin-left: 20px;
+  max-width: 90%;
+  max-height: 50px;
+}
+
+.imgFront {
+  top: 50%;
+}

@@ -1,0 +1,13 @@
+.portfolio {
+  display: grid;
+  place-items: center;
+}
+
+.projects {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  place-items: center;
+  gap: 4rem;
+  margin: 0 auto;
+}
