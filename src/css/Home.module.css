@@ -1,0 +1,50 @@
+.experience {
+  padding: var(--space-large);
+  font-size: var(--fz-xxl);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  cursor: url(../assets/images/logos/kia-logo.png), auto;
+  transition: padding var(--transition-duration);
+  -webkit-transition: padding var(--transition-duration);
+  -moz-transition: padding var(--transition-duration);
+  -ms-transition: padding var(--transition-duration);
+  -o-transition: padding var(--transition-duration);
+}
+
+.experience:hover {
+  padding-left: var(--space-xxl);
+}
+
+.experienceTitle {
+  text-align: center;
+  font-weight: 800;
+  font-size: var(--fz-xxxl);
+  margin-bottom: var(--space-large);
+}
+
+.experienceDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsWork {
+  display: flex;
+  gap: var(--space-small);
+}
+
+.company {
+}
+
+.job {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.dates {
+  font-style: italic;
+}
+
+.experienceText {
+}

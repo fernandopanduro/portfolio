@@ -1,4 +1,5 @@
 // Atropos component
+import { Dm } from "../components/Dm";
 import { PortfolioCard } from "../components/PortfolioCard";
 import styles from "../css/Portfolio.module.css";
 
@@ -6,7 +7,6 @@ export const Portfolio = () => {
   return (
     <div className={`container ${styles.portfolio}`}>
       <h1>Portfolio</h1>
-      <div>{/* PROJECTS */}</div>
       <div id="app" className={`${styles.projects}`}>
         {/* Atropos */}
         <PortfolioCard
@@ -28,6 +28,7 @@ export const Portfolio = () => {
           imgFront="src/assets/images/portfolio/sportage.png"
         />
       </div>
+      <Dm />
     </div>
   );
   // Projects

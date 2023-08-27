@@ -96,22 +96,22 @@ body {
   background-color: var(--white);
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   letter-spacing: -2%;
-}
+} */
 
-a,
+/* a,
 li,
 p,
 span,
 strong {
   letter-spacing: -0.05%;
-}
+} */
 
 li {
   list-style: none;
