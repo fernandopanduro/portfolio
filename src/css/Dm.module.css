@@ -1,0 +1,20 @@
+.title {
+  font-size: 280px;
+  font-weight: 400;
+  font-family: "PP Mondwest Regular", serif;
+  text-align: center;
+}
+
+.text {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.text a {
+  color: var(--black);
+}
+
+.text a:hover {
+  text-decoration: underline;
+}

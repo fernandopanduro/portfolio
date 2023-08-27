@@ -1,0 +1,49 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.listSocial {
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxs);
+}
+
+.title {
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: calc(var(--space-xxs) * 2);
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-xxs);
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.itemContainer hr {
+  width: 100%;
+}
+
+.itemContainer a {
+  max-width: 100%;
+  min-width: max-content;
+  text-align: right;
+  font-family: "Crimson Text", serif;
+  color: var(--black);
+}
+
+.itemContainer a:hover {
+  text-decoration: underline;
+}
