@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Footer } from "./components/Footer";
+import { Footer } from "./layout/Footer/Footer";
+import { Header } from "./layout/Header/Header";
 import { Achievements } from "./pages/Achievements";
 import { Contact } from "./pages/Contact";
 import { Experience } from "./pages/Experience";
@@ -11,6 +12,7 @@ import { PortfolioDetails } from "./pages/PortfolioDetails";
 function App() {
   return (
     <>
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

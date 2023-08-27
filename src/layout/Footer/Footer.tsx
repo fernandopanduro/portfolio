@@ -1,5 +1,5 @@
-import styles from "../css/Footer.module.css";
-import { EmailIcon, LinkedinIcon, YoutubeIcon } from "./Icons";
+import { EmailIcon, LinkedinIcon, YoutubeIcon } from "../../components/Icons";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
