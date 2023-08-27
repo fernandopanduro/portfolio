@@ -1,3 +1,53 @@
+.hero {
+  padding: var(--space-large) 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.heroTitle {
+  font-size: 60px;
+  line-height: 57px;
+  font-weight: 500;
+  text-wrap: balance;
+  max-width: 50ch;
+  font-family: "PP Neue Montreal Book", serif;
+}
+
+.hero div {
+  width: 100%;
+  font-size: var(--fz-medium);
+  display: grid;
+  place-items: center;
+}
+
+.arrowDown {
+  animation-name: arrowDown;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrowDown {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+}
+
 .experience {
   padding: var(--space-large);
   font-size: var(--fz-xxl);
